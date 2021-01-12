@@ -69,11 +69,15 @@ h3 {
 }
 .intro_image {
    padding-left: 100px;
+   position: absolute;
+   width: 30%;
+   top: 100px;
+   z-index: 0.5;
 }
 
 /* Features Area */
 #Features {
-   padding-top: 70px;
+   padding-top: 200px;
    padding-left: 100px;
 }
 .landing_li {
@@ -106,6 +110,43 @@ h3 {
    font-weight: normal;
    color: #fffefe;
 }
+
+/* Footer Links */
+.footer {
+   background-color: rgb(250, 250, 250);
+}
+.flex-container {
+   display: flex;
+   padding-left: 100px;
+   padding-top: 40px;
+}
+.flex_child {
+   flex: 1;
+}
+.comany_social {
+   padding-left: 50%;
+}
+.social {
+   padding: 10px;
+}
+.linkes_divider {
+   width: 82%;
+   margin-left: 100px;
+}
+.footer-parent {
+   color: #a4a4a4;
+   padding-left: 100px;
+}
+.sub_page {
+   list-style: none;
+   text-align: left;
+}
+.sub_page li {
+   color: #c8c8cd;
+   font-size: 12px;
+   font-weight: bold;
+}
+
 /* Footer Area */
 .attribution {
    text-align: center;
